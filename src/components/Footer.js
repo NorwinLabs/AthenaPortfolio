@@ -21,7 +21,7 @@ export const Footer = () => {
               <a href="#"><img src={navIcon2} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Project Athena by 2023 Gavin Norwood. All Rights Reserved</p>
+            <p>Project Athena by Gavin Norwood. All Rights Reserved. 2023</p>
           </Col>
         </Row>
       </Container>
