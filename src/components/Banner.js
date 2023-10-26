@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "AWS Certified Cloud Practitioner", "Full Stack Java Developer", "Web Developer", "Full Stack MEAN/MERN Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{`Hi! I'm Gavin`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Java Developer", "Web Developer", "Ful Stack MEAN/MERN Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Many years of experience in Information Technology and Software Development. Has significant expertise in project management as well as in developing programs, updating documentation with current industry standards, coding software, modifying existing systems, testing code, and implementing business technology solutions. Main coding motto is Runtime, Reliability, and Reusability.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
