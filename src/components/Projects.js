@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,20 +12,36 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Windhelm",
+      description: "A procedurally generated fantasy RPG created with C++ and UE5.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "DiscordDupe",
+      description: "A small yet effective application for online communication between different hosts written in Assembly language.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "AthenaPortfolio",
+      description: "Ironically, this repo is THIS exact site. Written in React.js, HTML, and SCSS",
       imgUrl: projImg3,
     }
+  ];
+
+  const Windhelm = [
+    {
+      title: "Windhelm",
+      description: "A procedurally generated fantasy RPG created with C++ and UE5.",
+      imgUrl: projImg1,
+    }
+  ];
+
+    const DiscordDupe = [
+      {
+        title: "Custom Linux Server + Site",
+        description: "This is a custom HTML/CSS Website hosted on an Apache2 webserver running on a raspberry pi4. ",
+        imgUrl: projImg4,
+      }
   ];
 
   return (
@@ -66,9 +83,33 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <p>This is my personal passion project, Windhelm! Coming to PC in 2025!</p>
+                      <Row>
+                        {
+                          Windhelm.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>This is a custom HTML/CSS Website hosted on an Apache2 webserver running on a raspberry pi4. </p>
+                      <Row>
+                        {
+                          DiscordDupe.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
