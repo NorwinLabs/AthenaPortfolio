@@ -2,7 +2,7 @@ name: Deploy AWS
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   REACT_APP_MAIN_TEXT: "Successfully deployed in AWS"
