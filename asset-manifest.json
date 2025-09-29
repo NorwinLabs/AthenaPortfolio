@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/AthenaPortfolio/static/css/main.42b3cabd.css",
+    "main.js": "/AthenaPortfolio/static/js/main.efb0110e.js",
+    "static/js/453.68aff525.chunk.js": "/AthenaPortfolio/static/js/453.68aff525.chunk.js",
+    "static/media/project-img4.png": "/AthenaPortfolio/static/media/project-img4.521a4ef479fa80aaaaaf.png",
+    "static/media/project-img2.png": "/AthenaPortfolio/static/media/project-img2.b66e393c56b5eea45fa5.png",
+    "static/media/color-sharp.png": "/AthenaPortfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/AthenaPortfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/meter1.svg": "/AthenaPortfolio/static/media/meter1.0a5f7a839a3730cb714431e45480c465.svg",
+    "static/media/banner-bg.png": "/AthenaPortfolio/static/media/banner-bg.da3e0bb42d7d20215c27.png",
+    "static/media/project-img3.png": "/AthenaPortfolio/static/media/project-img3.eb531dcb505c262ac37d.png",
+    "static/media/meter4.svg": "/AthenaPortfolio/static/media/meter4.9ca5e95dffd943b0db0c368e7d520539.svg",
+    "static/media/project-img1.png": "/AthenaPortfolio/static/media/project-img1.9b3d9a60229d96b9e83c.png",
+    "static/media/CentraNo2-Bold.ttf": "/AthenaPortfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/AthenaPortfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/AthenaPortfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/AthenaPortfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/meter6.svg": "/AthenaPortfolio/static/media/meter6.c76ef60f9c92175976860e53eebc380a.svg",
+    "static/media/meter3.svg": "/AthenaPortfolio/static/media/meter3.32a9bcd0350f51b5188852a775332b6c.svg",
+    "static/media/revicons.eot": "/AthenaPortfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/AthenaPortfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/AthenaPortfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/header-img.svg": "/AthenaPortfolio/static/media/header-img.dc1860fac891619ed205c4c2a1cc0a52.svg",
+    "static/media/logo.svg": "/AthenaPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/meter7.svg": "/AthenaPortfolio/static/media/meter7.74f62973edf6b0a7e341a891ba8d6bbe.svg",
+    "static/media/contact-img.svg": "/AthenaPortfolio/static/media/contact-img.349c556841146dd1501a0c8fbf8174ad.svg",
+    "static/media/nav-icon3.svg": "/AthenaPortfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/meter5.svg": "/AthenaPortfolio/static/media/meter5.84334a71f9281593f5f574010d2daaa2.svg",
+    "static/media/meter2.svg": "/AthenaPortfolio/static/media/meter2.844767d76c7076a2460132905b760048.svg",
+    "static/media/meter8.svg": "/AthenaPortfolio/static/media/meter8.026a62687ef705a39cfc755d7457859c.svg",
+    "index.html": "/AthenaPortfolio/index.html",
+    "static/media/nav-icon1.svg": "/AthenaPortfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/AthenaPortfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.42b3cabd.css.map": "/AthenaPortfolio/static/css/main.42b3cabd.css.map",
+    "main.efb0110e.js.map": "/AthenaPortfolio/static/js/main.efb0110e.js.map",
+    "453.68aff525.chunk.js.map": "/AthenaPortfolio/static/js/453.68aff525.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42b3cabd.css",
+    "static/js/main.efb0110e.js"
+  ]
+}
